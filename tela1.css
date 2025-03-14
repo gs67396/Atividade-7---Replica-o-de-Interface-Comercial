@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tabbar{
+    display: flex;
+}
+.tab{
+    display: flex;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 2px;
+}
+.tab img{
+    width: 20px;
+    height: auto;
+}
+
+.local{
+    background-color: rgb(170, 170, 170);
+    font-weight: bold;
+    font-size: larger;
+    padding: 5px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.loading{
+    padding: 10px;
+    background: repeating-linear-gradient(
+        45deg,
+        #bdbe4f,
+        #bdbe4f 10px,
+        #959e1b 10px,
+        #959e1b 20px
+      );
+}
+
+.toolbar{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    background-color: rgb(170, 170, 170);
+    display: flex;
+    gap: 5px;
+}
+
+.tool{
+    padding: 5px;
+    display: flex;
+    border: 1px solid black;
+    border-collapse: collapse; 
+    background-color: white;
+    gap: 5px;
+}
+.tool img{
+    width: 15px;
+    height: auto;
+}
+
+table,th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.tblehead,th,td{
+    background-color: rgb(143, 143, 143);
+    color: rgb(83, 83, 83);
+}
