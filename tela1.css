@@ -50,12 +50,12 @@
 
 .tool{
     padding: 5px;
-    display: flex;
-    border: 1px solid black;
-    border-collapse: collapse; 
+    display: flex; 
     background-color: white;
     gap: 5px;
 }
+
+
 .tool img{
     width: 15px;
     height: auto;
@@ -65,11 +65,18 @@ table,th,td {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 3px;
+    align-items: center;
+}
+
+table img{
+    width: 20px;
+    height: auto;
 }
 
 td:nth-child(1) { background-color: gray;}
-tr:nth-child(1){background-color:gray;color: rgb(78, 74, 74);font-weight: bold;}
-
+tr:nth-child(1){background-color:gray;font-weight: bold;}
+tr:hover {background-color: #a2bfe9;}
+td:hover {background-color: #a2bfe9;}
 
 .blank{
     padding: 10px;
@@ -81,6 +88,11 @@ tr:nth-child(1){background-color:gray;color: rgb(78, 74, 74);font-weight: bold;}
     gap: 10px;
     align-items: center;
     border: 2px solid blue;
+    font-weight: bold;
+}
+
+.title p{
+    color:  rgb(78, 74, 74);
 }
 .title img{
     width: 30px;
@@ -91,3 +103,17 @@ main{
     display: flex;
 }
 
+section{
+    border: 5px solid rgb(196, 194, 194);
+    border-collapse: collapse;
+    align-items: center;
+
+}
+
+.teste {
+    width: 100%;
+}
+
+#schema {
+    width: 100%;
+}
