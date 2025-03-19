@@ -1,0 +1,68 @@
+body {
+    background-color: honeydew;
+}
+
+section {
+    background-color: #dbeaf9;
+    max-width: 1000px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.container {
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container1 {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.textos {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.textos2 {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.textos2 p {
+    background-color: rgb(55, 0, 255);
+    border-radius: 20px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.flexivel {
+    display: flex;
+}
+
+.flexivel2 {
+    display: flex;
+}
+
+.flexivel1 h2 {
+    display: flex;
+}
+
+.roboimagem {
+    margin: 0px;
+    box-sizing: border-box;
+}  
+
+<!---->
+
+.final p {
+    text-align: end;
+}
+
+.fundo p {
+background-color: #ffffff;
+color: black;
+transform: scale(1.2,1.2);
+}
